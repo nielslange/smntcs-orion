@@ -1,8 +1,10 @@
 [![](https://api.travis-ci.com/nielslange/smntcs-orion.svg?branch=master)](https://travis-ci.com/nielslange/smntcs-orion/builds/) 
-[![](https://img.shields.io/github/issues/nielslange/smntcs-orion-retro.svg)](https://github.com/nielslange/smntcs-orion/issues/) 
+[![](https://img.shields.io/github/issues/nielslange/smntcs-orion)](https://github.com/nielslange/smntcs-orion/issues/) 
 [![](https://img.shields.io/github/forks/nielslange/smntcs-orion.svg)](https://github.com/nielslange/smntcs-orion/network/members/) 
 [![](https://img.shields.io/github/stars/nielslange/smntcs-orion.svg)](https://github.com/nielslange/smntcs-orion/stargazers/) 
 [![](https://img.shields.io/github/license/nielslange/smntcs-orion.svg)](https://github.com/nielslange/smntcs-orion/blob/master/LICENSE) 
+
+
 
 **Theme Name:** SMNTCS Orion  
 **Theme URI:** n/a
