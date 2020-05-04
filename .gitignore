@@ -1,0 +1,6 @@
+/vendor
+.phpcs.xml
+phpcs.xml
+/node_modules
+node_modules
+/.vscode/settings.json

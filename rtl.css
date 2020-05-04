@@ -1,0 +1,140 @@
+/*
+Theme Name:   SMNTCS Orion
+Theme URI:    https://github.com/nielslange/smntcs-orion/
+Description:  🛍 SMNTCS Orion is a Twenty Twenty child theme for WooCommerce.
+Author:       NIels Lange
+Author URI:   https://nielslange.de
+Template:     twentytwenty
+Version:      1.0.0
+License:      GNU General Public License v3 or later
+License URI:  http://www.gnu.org/licenses/gpl.html
+Text Domain:  smntcs-orion
+*/
+
+:root {
+	--WOOCOMMERCE: #96588a;
+	--DARK-GREY: #3c3c3c;
+	--GREEN: #71b02f;
+	--LIGHT-GREY: #f7f7f7;
+	--BORDER-COLOR: #e6e6e6;
+	--WHITE: #fff;
+}
+
+select {
+	background: var(--LIGHT-GREY);
+	color: var(--DARK-GREY);
+}
+
+.onsale {
+	background: var(--WOOCOMMERCE);
+	color: var(--WHITE);
+}
+
+body,
+ul.products li.product .price,
+ul.products li.product .star-rating,
+ul.products li.product .woocommerce-loop-product__title,
+.entry-title a,
+.woocommerce-tabs ul li a,
+:root .has-primary-color {
+	color: var(--DARK-GREY) !important;
+}
+
+button:not(.toggle),
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.bg-accent,
+.bg-accent-hover:focus,
+.bg-accent-hover:hover,
+.button,
+.faux-button,
+.wp-block-button__link,
+.wp-block-file .wp-block-file__button,
+.comment-reply-link,
+:root .has-accent-background-color {
+	background-color: var(--WOOCOMMERCE) !important;
+}
+
+@media screen and (min-width: 768px) {
+
+	.header-inner,
+	.section-inner,
+	.woocommerce .content-area {
+		max-width: 100%;
+	}
+
+	.woocommerce .content-area {
+		max-width: 100%;
+		padding: 2vw 0;
+		width: calc(100% - 8rem);
+	}
+
+	.woocommerce ul.products li.product,
+	.woocommerce-page ul.products li.product {
+		margin: 0 0 2.992em 1%;
+		width: 22.05%;
+	}
+
+	.woocommerce ul.products li.last,
+	.woocommerce-page ul.products li.last {
+		margin-left: 0;
+	}
+
+	.woocommerce ul.products.columns-1 li.product,
+	.woocommerce-page ul.products.columns-1 li.product {
+		width: 100%;
+	}
+
+	.woocommerce ul.products.columns-2 li.product,
+	.woocommerce-page ul.products.columns-2 li.product {
+		width: 49.5%;
+	}
+
+	.woocommerce ul.products.columns-3 li.product,
+	.woocommerce-page ul.products.columns-3 li.product {
+		width: 32.6%;
+	}
+
+	.woocommerce ul.products.columns-4 li.product,
+	.woocommerce-page ul.products.columns-4 li.product {
+		width: 24.25%;
+	}
+
+	.woocommerce ul.products.columns-5 li.product,
+	.woocommerce-page ul.products.columns-5 li.product {
+		width: 19.2%;
+	}
+
+	.woocommerce ul.products.columns-6 li.product,
+	.woocommerce-page ul.products.columns-6 li.product {
+		width: 15.83%;
+	}
+
+	.woocommerce ul.products.columns-7 li.product,
+	.woocommerce-page ul.products.columns-7 li.product {
+		width: 13.43%;
+	}
+
+	.woocommerce ul.products.columns-8 li.product,
+	.woocommerce-page ul.products.columns-8 li.product {
+		width: 11.625%;
+	}
+
+	.woocommerce ul.products.columns-9 li.product,
+	.woocommerce-page ul.products.columns-9 li.product {
+		width: 10.2%;
+	}
+
+	.woocommerce ul.products.columns-10 li.product,
+	.woocommerce-page ul.products.columns-10 li.product {
+		width: 9.1%;
+	}
+}
+
+/* @media only screen and (max-width: 667px) {
+	.woocommerce ul.products[class*=columns-] li.product ,
+	.woocommerce-page ul.products[class*=columns-] li.product {
+		width: 100%;
+	}
+} */
